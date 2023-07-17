@@ -1,0 +1,17 @@
+/Elastic_Api/node_modules
+/Elastic_Api/public/hot
+/Elastic_Api/public/storage
+/Elastic_Api/storage/*.key
+/Elastic_Api/vendor
+/Elastic_Api.env
+/Elastic_Api.env.backup
+/Elastic_Api.phpunit.result.cache
+/Elastic_Apidocker-compose.override.yml
+/Elastic_ApiHomestead.json
+/Elastic_ApiHomestead.yaml
+/Elastic_Apinpm-debug.log
+/Elastic_Apiyarn-error.log
+/.idea
+/.vscode
+/Elastic_Api/.idea
+/Elastic_Api/.vscode
