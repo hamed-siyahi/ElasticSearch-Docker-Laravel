@@ -14,7 +14,9 @@ use App\Http\Controllers\SearchController;
 */
 
 
-Route::get('/', [SearchController::class,'searchData'])->name('home');
-Route::get('/search/user-posts', [SearchController::class,'getPostByUserId'])->name('search.user-posts');
-Route::get('/search/user-users', [SearchController::class,'searchUsers'])->name('search.users');
+Route::get('/',
+function (){
+    return view('welcome');
+}
+)->name('home');
 
